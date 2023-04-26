@@ -7,7 +7,7 @@ button.addEventListener('click', function(event){
     event.preventDefault()
     if (login.value.length < 1 || pass.value.length < 1 ) {
 
-        text.innerHTML = 'não deixe campos em <br>branco!'
+        text.innerHTML = 'Não deixe campos em <br>branco!'
         text.classList.add('fail')
         text.classList.remove('success')
 
